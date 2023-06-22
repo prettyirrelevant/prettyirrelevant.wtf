@@ -11,30 +11,26 @@ const projects = await getProjects(6)
 const posts = sortPostsByDate(await getCollection("blog", ({ data }) => data.isDraft !== true))
   .slice(0, 4)
 
-const title = "nexxel • home"
+const title = "prettyirrelevant • home"
 ---
 
 <Base
   {title}
-  description="Personal website and blog of Shoubhit Dash aka nexxel."
+  description="Personal website and blog of Isaac Adewumi"
   image="https://og.nxl.sh/home"
 >
   <h1 slot="header-content" class="text-neutral-600 dark:text-neutral-500">
-    nexxel
+    prettyirrelevant
   </h1>
 
    <main class="prose">
       <p>
         <small class="text-neutral-600 dark:text-neutral-500"
-          >IPA &nbsp; /ˈnɛks ɛl/ — no meaning, i made it up</small
+          >IPA &nbsp; /prɪti ɪrelɪvənt/ — what I think of nicknames</small
         >
         <br />
 
-        Hi there, I'm <strong>Shoubhit</strong> aka <strong>nexxel</strong>. I'm 17 y/o and going to university soon. I like <strong>shuffling cards</strong> and <strong>building things</strong>. I enjoy <strong>language design</strong>, <strong>web development</strong> and I live on the <strong>terminal</strong>.
-      </p>
-
-      <p>
-        Right now I'm building an <strong>analytics</strong> service, learning <strong>OCaml</strong>, writing <strong>blog</strong> posts and going to the <strong>gym</strong> regularly.
+        Hi there, I'm <strong>Isaac</strong>. I'm 21 y/o and cannot wait to graduate from university.
       </p>
 
       <div class="mt-12" />
